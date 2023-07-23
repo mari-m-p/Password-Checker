@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.main-container {
+  box-shadow: 2px 2px 3px 3px #ccc;
+  border: 2px #eee;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.password-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.password-container input {
+  padding-right: 30px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  padding: 10px;
+  cursor: pointer;
+}
